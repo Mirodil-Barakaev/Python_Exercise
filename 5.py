@@ -1,0 +1,1 @@
+print ("Python is ", end="\nFun\n")
