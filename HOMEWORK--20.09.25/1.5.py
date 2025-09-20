@@ -1,1 +1,3 @@
-print ("Python is ", end="\nFun\n")
+print ("Python ", end="")
+print ("is")
+print ("fun!")
