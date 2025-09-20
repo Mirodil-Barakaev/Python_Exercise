@@ -1,2 +1,4 @@
-#Print the words "A", "B", and "C" each on a new line.
-print("A\nB\nC")
+a = 1
+b = 2
+a = b
+print (b,a)

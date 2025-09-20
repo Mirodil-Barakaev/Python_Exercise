@@ -1,2 +1,3 @@
-age = input("How old are you? ")
-print ("You are",age,"years old")
+a = 5
+b = a
+print (b)

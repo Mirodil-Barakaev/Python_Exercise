@@ -1,3 +1,2 @@
-#Use an f-string to print a message that includes the value of a variable.
-name = "Alice"
-print(f"Hello, {name}!")
+pi = 3.14159
+print ("The value is pi",pi)

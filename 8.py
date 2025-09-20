@@ -1,5 +1,3 @@
-#Ask the user for a word and a number. Print the word that many times on a single line.
-word = input("Enter a word: ")
-num = int(input("Enter a number: "))
-
-print(word * num)
+str_num = input ("Enter string: ")
+num = int(str_num)
+print (num)

@@ -1,4 +1,3 @@
-print ("Enter your name and surname:")
-name = input()
-surname = input()
-print ("Hello,",name,surname)
+is_true = True
+print("Qiymat:", is_true)
+
