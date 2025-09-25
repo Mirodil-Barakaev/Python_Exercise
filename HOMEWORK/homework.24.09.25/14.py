@@ -1,0 +1,5 @@
+A = int(input("A="))
+B = int(input("B="))
+C = int(input("C="))
+positives = sum(1 for x in (A, B, C) if x > 0)
+print(positives == 1)

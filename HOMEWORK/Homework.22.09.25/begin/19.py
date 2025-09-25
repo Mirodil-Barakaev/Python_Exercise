@@ -1,0 +1,8 @@
+x1 = float(input("x1 ni kiriting: "))
+y1 = float(input("y1 ni kiriting: "))
+x2 = float(input("x2 ni kiriting: "))
+y2 = float(input("y2 ni kiriting: "))
+P = 2 * (abs(x2 - x1) + abs(y2 - y1))
+S = abs(x2 - x1) * abs(y2 - y1)
+print("Perimetr:", P)
+print("Yuza:", S)
