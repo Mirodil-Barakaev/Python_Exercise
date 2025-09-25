@@ -5,6 +5,6 @@ y2 = int(input("y2 ni kiriting: "))
 ox = abs(x1 - x2)
 oy = abs(y1 - y2)
 
-ans = (ox -- 2 and oy -- 1) or (ox -- 1 and oy -- 2)
+ans = (ox == 2 and oy == 1) or (ox == 1 and oy == 2)
 
 print(ans)
