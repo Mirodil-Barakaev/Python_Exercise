@@ -1,0 +1,2 @@
+single=('single',)
+print(single)
