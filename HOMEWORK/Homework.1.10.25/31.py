@@ -3,4 +3,4 @@ n=5
 if n in s:
  print(n,'bor')
 else:
- print(n,'yo'q')
+ print(n,'yoq')
