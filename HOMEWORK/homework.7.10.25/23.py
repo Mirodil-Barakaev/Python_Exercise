@@ -1,8 +1,9 @@
-def is_perfect(n):
-    s = 0
-    for i in range(1, n):
-        if n % i == 0:
-            s += i
-    return s == n
+def student_info(name,age,grade,country):
+    print("Name: ",name)
+    print("Age: ",age)
+    print("Grade: ",grade)
+    print("Country: ",country)
+    
+   
 
-print(is_perfect(6))
+student_info("Ali", 21, "A", "Uzbekistan")

@@ -1,7 +1,6 @@
-def sum_of_digits(n):
-    s = 0
-    for i in str(n):
-        s += int(i)
-    return s
+def build_sentecese(*words,sep=""):
+   return sep.join(words)
+    
 
-print(sum_of_digits(1234))
+res = build_sentecese("Hello","Eshmat","How","are","you",sep=" ")
+print(res)

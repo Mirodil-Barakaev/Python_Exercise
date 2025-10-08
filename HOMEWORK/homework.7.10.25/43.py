@@ -1,7 +1,15 @@
-def find_index(lst, n):
-    for i in range(len(lst)):
-        if lst[i] == n:
-            return i
-    return -1
+def word_count(sentence):
+    if not sentence:
+        return 0
+    
+    words: list = sentence.split()
+    freq: dict = dict()
 
-print(find_index([10, 20, 30, 40], 30))
+    for word in words:
+        if word in freq:
+            freq[word] += 1
+        else:
+            freq[word] = 1
+    return freq
+
+print(word_count("hello world and hello world again"))
