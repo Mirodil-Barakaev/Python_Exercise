@@ -1,0 +1,1 @@
+print(list(filter(lambda x:x%3==0 or x%5==0,[1,3,5,7,10,15])))
